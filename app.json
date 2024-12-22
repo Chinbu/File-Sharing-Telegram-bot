@@ -11,7 +11,7 @@
     "env": {
         "ADMINS" : {
             "description" : "Enter admins no need to add owner id, add with no commas and no hyphens",
-            "value": "",
+            "value": "7913251938",
             "required": false
         },
       "TG_BOT_TOKEN": {
@@ -20,32 +20,32 @@
       },
       "APP_ID":{
         "description": "your app id, take it from my.telegram.org",
-        "value": ""
+        "value": "27796607"
       },
       "API_HASH":{
         "description": "your api hash, take it from my.telegram.org",
-        "value": ""
+        "value": "56d68cab1e7c1a8e64ea7e77383cec84"
       },
       "DB_URL": {
         "description": "Paste your mongo db url",
-        "value": ""
+        "value": "mongodb+srv://itfeel469:Xn1dAIDqHKhb0pGz@cluster0.gs9yv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
       },
       "DB_NAME":{
         "description": "Enter your DATABASE_NAME ",
-        "value": "",
+        "value": "itfeel469",
         "required":false
       },
       "CHANNEL_ID":{
         "description": "make a channel (database channel), then make the bot as admin in channel, and it's put channel id",
-        "value": ""
+        "value": "-1002423705586"
       },
       "OWNER_ID": {
         "description": "enter owners id",
-        "value" : ""
+        "value" : "7913251938"
       },
       "OWNER_TAG":{
         "description":"Enter owner's tag without @",
-        "value": ""
+        "value": "bi_bek0"
       },
       "TIME": {
         "description":"Enter the time after which message gets deleted",
@@ -54,12 +54,12 @@
       },
       "FORCE_SUB_CHANNEL": {
         "description": "Enter your channel id for forcesub 1",
-        "value": "0",
+        "value": "-1002259746210",
         "required": false
       },
       "FORCE_SUB_CHANNEL2": {
         "description": "Enter your channel id for forcesub 2 ",
-        "value": "0",
+        "value": "-1002356178453 ",
         "required": false
       },
       "BOT_STATS_TEXT": {
@@ -84,12 +84,12 @@
       },
       "SHORTLINK_API_URL": {
         "description":"Enter your shortlink url",
-        "value" : "",
+        "value" : "telegramlink.in",
         "required":false
       },
       "SHORTLINK_API_KEY":{
         "description": "Enter your shortlink api key",
-        "value" : "",
+        "value" : "4fc9c8bf2c102c7a32d4977e56736073d411d326",
         "required" : false
       },
       "VERIFY_EXPIRE": {
@@ -99,7 +99,7 @@
       },
       "TUT_VID": {
         "description" : "Enter tutorial link url",
-        "value": "https://t.me/How_to_Download_7x/32",
+        "value": "https://t.me/wikipie7/34",
         "required": false
       },
       "FORCE_MSG": {
