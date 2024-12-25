@@ -54,7 +54,7 @@
       },
       "FORCE_SUB_CHANNEL": {
         "description": "Enter your channel id for forcesub 1",
-        "value": "-1002259746210",
+        "value": "-1002154279838",
         "required": false
       },
       "FORCE_SUB_CHANNEL2": {
@@ -79,7 +79,7 @@
       },
       "USE_SHORTLINK":{
         "description":"Enter True for enabling this feature",
-        "value": "False",
+        "value": "True",
         "required": false
       },
       "SHORTLINK_API_URL": {
@@ -99,7 +99,7 @@
       },
       "TUT_VID": {
         "description" : "Enter tutorial link url",
-        "value": "https://t.me/wikipie7/34",
+        "value": "https://t.me/ysuhwh_tuto/4",
         "required": false
       },
       "FORCE_MSG": {
@@ -119,7 +119,7 @@
       },
       "DISABLE_CHANNEL_BUTTON": {
         "description" : "Enter False if need to enable buttons in database channel",
-        "value" : "True",
+        "value" : "False",
         "required" : false
       }
     },
