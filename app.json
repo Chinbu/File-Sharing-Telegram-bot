@@ -49,7 +49,7 @@
       },
       "TIME": {
         "description":"Enter the time after which message gets deleted",
-        "value": "60",
+        "value": "7200",
         "required": false
       },
       "FORCE_SUB_CHANNEL": {
@@ -59,7 +59,7 @@
       },
       "FORCE_SUB_CHANNEL2": {
         "description": "Enter your channel id for forcesub 2 ",
-        "value": "-1002356178453 ",
+        "value": "-1002365194070",
         "required": false
       },
       "BOT_STATS_TEXT": {
@@ -95,7 +95,7 @@
       "VERIFY_EXPIRE": {
         "description" : "Enter your expiration time 24hr = 86400 12hr = 43200",
         "value": "86400",
-        "required": false
+        "required": true
       },
       "TUT_VID": {
         "description" : "Enter tutorial link url",
