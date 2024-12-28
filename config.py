@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002154279838"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002356178453"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002365194070"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -47,7 +47,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store privat
 #your telegram tag without @
 OWNER_TAG = os.environ.get("OWNER_TAG", "bi_bek0")
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "60"))
+TIME = int(os.environ.get("TIME", "7200"))
 
 
 #Shortner (token system) 
@@ -79,7 +79,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/ysuhwh_tuto/4")
 
 #Payment to remove the token system
 #put TRUE if you want this feature
-USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "TRUE") == "TRUE" else False) and (USE_SHORTLINK) else False
+USE_PAYMENT = True if (True if os.environ.get("USE_PAYMENT", "FALSE") == "TRUE" else False) and (USE_SHORTLINK) else False
 #UPI ID
 UPI_ID = os.environ.get("UPI_ID", " ")
 #UPI QR CODE IMAGE
