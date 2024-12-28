@@ -20,7 +20,7 @@ def new_user(id):
     return {
         '_id': id,
         'verify_status': {
-            'is_verified': True,
+            'is_verified': False,
             'verified_time': "",
             'verify_token': "",
             'link': ""
